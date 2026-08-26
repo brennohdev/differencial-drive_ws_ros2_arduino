@@ -1,0 +1,65 @@
+# ====================
+# ROS2 / Colcon
+# ====================
+build/
+install/
+log/
+.colcon/
+
+# ====================
+# Python
+# ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+*.egg
+.eggs/
+
+# ====================
+# C++ / CMake
+# ====================
+*.o
+*.a
+*.so
+*.dylib
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# ====================
+# IDE / Editor
+# ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ====================
+# OS
+# ====================
+Thumbs.db
+.DS_Store
+
+# ====================
+# Arduino
+# ====================
+*.elf
+*.hex
+*.bin
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# ====================
+# Misc
+# ====================
+*.bag
+*.db3
+*.log
+tempCodeRunnerFile

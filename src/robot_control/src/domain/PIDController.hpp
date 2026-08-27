@@ -11,11 +11,11 @@ public:
   void reset();
 
 private:
-    double Kp_;
-    double Ki_;
-    double Kd_;
-    double integral_;
-    double previous_error;
+  double Kp_;
+  double Ki_;
+  double Kd_;
+  double integral_;
+  double previous_error_;
 };
 
 } // namespace ddrobot::domain

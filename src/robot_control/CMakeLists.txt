@@ -7,12 +7,13 @@ find_package(geometry_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 
 add_executable(waypoint_follower
-    src/application/WaypointFollowerNode.cpp
-    src/domain/PIDController.cpp
+  src/application/main.cpp
+  src/application/WaypointFollowerNode.cpp
+  src/domain/PIDController.cpp
 )
 
 target_include_directories(waypoint_follower PRIVATE
-    ${CMAKE_CURRENT_SOURCE_DIR}/src
+  ${CMAKE_CURRENT_SOURCE_DIR}/src
 )
 
 ament_target_dependencies(waypoint_follower
